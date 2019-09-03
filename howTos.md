@@ -185,7 +185,8 @@ $ git bisect ( https://git-scm.com/book/fr/v1/Utilitaires-Git-Deboguer-avec-Git 
 
 Patch changes from one branch ( or repo ) to another
 get differences into a file patch.diff
-$ git diff 719c797..HEAD > patch.diff
+
+$ git diff 719c797..HEAD (if files added stage everything and use --staged here)> patch.diff
 copy in windows explorer the file patch.diff
 $ cd ../Jvis/
 $ git apply patch.diff
