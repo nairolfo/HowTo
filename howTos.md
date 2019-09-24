@@ -96,8 +96,11 @@ List local branches
 $ git branch
 List all branches remote and local. 
 $ git branch -a
-display the Head of each local branch
+Display the Head of each local branch
 $ git branch -v
+Filter branches by name like
+$ git branch --list *notification*
+
 
 Import all remote branches (e.g. for reviewing code committed on remote repository)
 $ git fetch
