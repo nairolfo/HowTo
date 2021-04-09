@@ -66,6 +66,9 @@ Clone Repo
 $ git clone https://fchaumeil@bitbucket.org/actify-ondemand/magnaex.git
 $ git remote add upstream https://fchaumeil@bitbucket.org/actify-ondemand/magnaex.git
 
+Update Remote
+$ git remote set-url qm https://fchaumeil@bitbucket.org/actify-ondemand/apm.git
+
 Ignore changes on a particular file
 $ git update-index --assume-unchanged KitKatWebApps/Configuration/location.config
 $ git update-index --assume-unchanged KitKatWebApps/Configuration/connectionSettingsTemplate.config
@@ -182,6 +185,8 @@ $ git stash apply stash@{0}
 $ git stash drop (drops the top stash, stash@{0}) 
 $ git stash drop stash@{n}
 $ git stash pop stash@{n} (apply and drop)
+$ git stash save 'test snackbar error'
+
 
 Find what commit broke the code
 $ git bisect ( https://git-scm.com/book/fr/v1/Utilitaires-Git-Deboguer-avec-Git )
@@ -205,9 +210,13 @@ Find the most recent common ancestor of two branches
 $ git merge-base branch2 branch3
 $ gitk MAGNAEX-83 MAGNAEX-89
 
+#Angular
 
+Generate new component
+>\src\apps\QuoteManWebApp\ClientApp\src\app> ng g c workflow/task-assignment --module <<Specify module eg: ./app>>
 
-
+Update translation/message.xlf file
+>\src\apps\QuoteManWebApp\ClientApp> ng xi18n --output-path locale
 
 
 
