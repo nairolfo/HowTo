@@ -1,8 +1,8 @@
 # Regex search in visual studio
 return occurences where any any text is in between bla and bla: bla.*bla
 
-# Access other KitKat Projects
-https://bitbucket.org/account/user/actify-ondemand/projects/KIT
+# Access bitbucket
+https://bitbucket.org/
 
 # install different versions of arangoDB
 https://download.arangodb.com/Windows7/x86_64/index.html
