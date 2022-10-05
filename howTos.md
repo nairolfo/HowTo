@@ -210,7 +210,7 @@ Find the most recent common ancestor of two branches
 $ git merge-base branch2 branch3
 $ gitk MAGNAEX-83 MAGNAEX-89
 
-#Angular
+# Angular
 
 Generate new component
 >\src\apps\QuoteManWebApp\ClientApp\src\app> ng g c workflow/task-assignment --module <<Specify module eg: ./app>>
