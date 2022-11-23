@@ -217,6 +217,19 @@ Generate new component
 
 Update translation/message.xlf file
 >\src\apps\QuoteManWebApp\ClientApp> ng xi18n --output-path locale
+	
+# VS Code
+
+Move line up or down alt+arrow
+Copy line up or down alt+shift+arrow
+Box selection shift+alt+mouse select
+Cursor on all occurences of a selected string ctrl+shift+l
+delete entire line ctrl+shift+k
+Comment selection alt+shift+a
+F2 rename symbol where the cursor is
+format file alt+shift
+Customize keyboard shortcuts ctrl k ctrl s
+
 
 
 
